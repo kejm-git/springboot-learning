@@ -1,0 +1,26 @@
+#\u5BF9\u8C61\u3001Map\u7684\u8868\u793A
+#person:
+#  lastName: zhangsan
+#  age: 18
+#  boss: false
+#  birth: 2002/02/02
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#    - wangwu
+#  dog:
+#    name: \u5C0F\u72D7
+#    age: 11
+
+boy: {lastName: lisi,age: 19}
+
+#\u6570\u7EC4\uFF08List\uFF0CSet\uFF09\u7684\u8868\u793A
+pets:
+  - cat
+  - dog
+  - pig
+  - tiger
+
+fruits: {apple,banana,pear}
+
