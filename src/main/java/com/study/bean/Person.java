@@ -22,7 +22,7 @@ import java.util.Map;
  * @PropertySource(value = {"classpath:person.properties"}) 加载指定的配置文件
  */
 
-@PropertySource(value = {"classpath:person.properties"},encoding = "utf-8")
+@PropertySource(value = {"classpath:config/person.properties"},encoding = "utf-8")
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {

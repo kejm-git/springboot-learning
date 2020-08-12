@@ -16,6 +16,10 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+        <!-- 布局功能的支持程序  thymeleaf3主程序  layout2以上版本 -->
+        <!-- thymeleaf2   layout1-->
+        <thymeleaf-layout-dialect.version>2.2.2</thymeleaf-layout-dialect.version>
     </properties>
 
     <dependencies>
@@ -36,6 +40,22 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+<!--springboot使用它来做日志功能-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
         <dependency>
